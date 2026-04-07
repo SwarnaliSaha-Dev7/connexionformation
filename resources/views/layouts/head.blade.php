@@ -1,6 +1,6 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
-<title>Connexion Formation</title>
+{{-- <title>Connexion Formation</title> --}}
 <title>@yield('title')</title>
 <!-- FAVICON LINKS -->
 <link rel="icon" href="{{ asset('assets/images/favicon.webp') }}" type="image/x-icon">

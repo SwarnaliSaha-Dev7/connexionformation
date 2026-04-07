@@ -4,7 +4,7 @@
             <div class="nav_bar_top">
                 <!-- Logo -->
                 <div class="logo">
-                    <a href="index.html">
+                    <a href="{{ route('homePage') }}">
                         <img src="{{ asset('assets/images/logo.svg') }}" alt="logo" width="256px" height="64px" loading="lazy"
                             fetchpriority="high">
                     </a>
@@ -54,13 +54,13 @@
                         <ul class="header-list">
                             <li>
                                 <div class="mobile-logo">
-                                    <a href="index.html" class="nav-logo">
+                                    <a href="{{ route('homePage') }}" class="nav-logo">
                                         <img src="{{ asset('assets/images/logo.svg') }}" alt="logo" width="256px" height="64px"
                                             loading="lazy" fetchpriority="high">
                                     </a>
                                 </div>
                             </li>
-                            <li><a href="index.html">Accueil</a></li>
+                            <li><a href="{{ route('homePage') }}">Accueil</a></li>
                             <li>
                                 <div class="drop-down">
                                     <a href="#" class="dropdownList-toggle">

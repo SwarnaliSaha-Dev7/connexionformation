@@ -42,5 +42,4 @@
     @include('layouts.scripts')
     @yield('customJS')
 </body>
-
 </html>
