@@ -15,7 +15,7 @@
   padding: 50px 50px 50px 115px;
   height: 100%;
   width: 100%;
-  background-image: url(images/footer.webp);
+  background-image: url(../images/footer.webp);
   background-size: cover;
   background-repeat: no-repeat;
   display: flex;

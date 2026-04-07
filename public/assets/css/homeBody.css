@@ -102,7 +102,7 @@
   position: absolute;
   width: 435px;
   height: 396px;
-  background-image: url(images/banne-bg.webp);
+  background-image: url(../images/banne-bg.webp);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -115,7 +115,7 @@
   position: absolute;
   width: 745px;
   height: 500px;
-  background-image: url(images/banner-bg-line.svg);
+  background-image: url(../images/banner-bg-line.svg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -168,7 +168,7 @@
   position: absolute;
   width: 149px;
   height: 239px;
-  background-image: url(images/form.webp);
+  background-image: url(../images/form.webp);
   background-repeat: no-repeat;
   background-position: left;
   background-size: cover;
@@ -408,7 +408,7 @@ input {
 .training::before {
   content: "";
   position: absolute;
-  background-image: url(images/line-t.webp);
+  background-image: url(../images/line-t.webp);
   background-repeat: no-repeat;
   background-size: cover;
   width: 100%;
@@ -420,7 +420,7 @@ input {
 .training::after {
   content: "";
   position: absolute;
-  background-image: url(images/line-b.webp);
+  background-image: url(../images/line-b.webp);
   background-repeat: no-repeat;
   background-size: cover;
   width: 100%;
@@ -587,7 +587,7 @@ input {
 .service-card::after {
   content: "";
   position: absolute;
-  background-image: url(images/service-line.svg);
+  background-image: url(../images/service-line.svg);
   background-position: center;
   background-size: cover;
   width: 388px;
