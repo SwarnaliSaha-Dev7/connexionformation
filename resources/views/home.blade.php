@@ -109,12 +109,12 @@
 
                             <div class="dropdow-circle dropdow-wrapper">
                                 <div>
-                                    <a href="#" class="common-btn">
+                                    <button type="submit" class="common-btn">
                                         <span class="text">Recherche</span>
                                         <span class="arr">
                                             <img src="{{ asset('assets/images/arr.svg') }}" alt="arrow" loading="lazy" fetchpriority="auto">
                                         </span>
-                                    </a>
+                                    </button>
                                 </div>
                             </div>
                         </div>
@@ -126,7 +126,7 @@
     <!-- form part end -->
 
     <!-- Top Formations part start -->
-    <section class="formations_sec">
+    <section class="topFormations_sec">
         <div class="container">
             <div class="cmn_title">
                 <h3>Top Formations</h3>
@@ -143,18 +143,18 @@
 
                             <div class="top-right">
                                 <div class="love">
-                                    <div class="wishlist">
-                                        <svg width="32" height="32" viewBox="0 0 32 32" fill="none"
-                                            xmlns="http://www.w3.org/2000/svg">
-                                            <path
-                                                d="M16 0C7.16375 0 0 7.16375 0 16C0 24.8363 7.16375 32 16 32C24.8363 32 32 24.8363 32 16C32 7.16375 24.8369 0 16 0ZM16 25.4263L14.4825 24.3487C12.9606 23.205 12.0175 22.4881 10.8206 21.3988C9.67562 20.3556 8.39062 19.0744 7.60313 17.5387C7.60313 17.5387 7.20938 16.7006 7.03 15.9838C6.91383 15.4749 6.86591 14.9528 6.8875 14.4312C7.035 11.4937 9.59688 8.81375 12.2475 8.66063C12.8669 8.62997 13.4848 8.74626 14.0506 9C14.3874 9.15193 14.704 9.34507 14.9931 9.575L16 10.4375L17.0069 9.58062C17.7956 8.95562 18.7294 8.61562 19.7525 8.66375C22.4031 8.81687 24.965 11.4956 25.1125 14.4344C25.1341 14.9559 25.0862 15.478 24.97 15.9869C24.97 15.9869 24.74 16.9244 24.3969 17.5419C23.6094 19.0775 22.3244 20.3587 21.1794 21.4019C20.7725 21.7712 20.4012 22.0944 20.0269 22.4056C19.295 23.0138 18.5456 23.5781 17.5175 24.3512L16 25.4263Z"
-                                                fill="#4D8C57" />
-                                        </svg>
-                                    </div>
+                                    <button class="wishlist">
+                                        <i class="fa-solid fa-heart" style="color: rgb(255, 255, 255);"></i>
+                                    </button>
                                 </div>
                                 <div class="badge">123 F CFA</div>
-                                <div class="stars"><img src="{{ asset('assets/images/star.webp') }}" alt="star" height="14px" width="83px"
-                                        loading="lazy" fetchpriority="auto"></div>
+                                <div class="stars">
+                                    <i class="fa-solid fa-star" style="color: rgb(255, 212, 59);"></i>
+                                    <i class="fa-solid fa-star" style="color: rgb(255, 212, 59);"></i>
+                                    <i class="fa-solid fa-star" style="color: rgb(255, 212, 59);"></i>
+                                    <i class="fa-solid fa-star" style="color: rgb(255, 212, 59);"></i>
+                                    <i class="fa-regular fa-star" style="color: rgb(255, 212, 59);"></i>
+                                </div>
                             </div>
                         </div>
 
@@ -197,7 +197,7 @@
                             </p>
 
                             <div class="buttons">
-                                <div class="btn-primary"><a href="#">Comparer</a></div>
+                                <div class="btn-primary"><button type="submit">Comparer</button></div>
                                 <div class="btn-outline"><a href="#">Consulter</a></div>
                             </div>
                         </div>
@@ -215,18 +215,18 @@
 
                             <div class="top-right">
                                 <div class="love">
-                                    <div class="wishlist">
-                                        <svg width="32" height="32" viewBox="0 0 32 32" fill="none"
-                                            xmlns="http://www.w3.org/2000/svg">
-                                            <path
-                                                d="M16 0C7.16375 0 0 7.16375 0 16C0 24.8363 7.16375 32 16 32C24.8363 32 32 24.8363 32 16C32 7.16375 24.8369 0 16 0ZM16 25.4263L14.4825 24.3487C12.9606 23.205 12.0175 22.4881 10.8206 21.3988C9.67562 20.3556 8.39062 19.0744 7.60313 17.5387C7.60313 17.5387 7.20938 16.7006 7.03 15.9838C6.91383 15.4749 6.86591 14.9528 6.8875 14.4312C7.035 11.4937 9.59688 8.81375 12.2475 8.66063C12.8669 8.62997 13.4848 8.74626 14.0506 9C14.3874 9.15193 14.704 9.34507 14.9931 9.575L16 10.4375L17.0069 9.58062C17.7956 8.95562 18.7294 8.61562 19.7525 8.66375C22.4031 8.81687 24.965 11.4956 25.1125 14.4344C25.1341 14.9559 25.0862 15.478 24.97 15.9869C24.97 15.9869 24.74 16.9244 24.3969 17.5419C23.6094 19.0775 22.3244 20.3587 21.1794 21.4019C20.7725 21.7712 20.4012 22.0944 20.0269 22.4056C19.295 23.0138 18.5456 23.5781 17.5175 24.3512L16 25.4263Z"
-                                                fill="#4D8C57" />
-                                        </svg>
-                                    </div>
+                                    <button class="wishlist">
+                                        <i class="fa-solid fa-heart" style="color: rgb(255, 255, 255);"></i>
+                                    </button>
                                 </div>
                                 <div class="badge">123 F CFA</div>
-                                <div class="stars"><img src="{{ asset('assets/images/star.webp') }}" alt="star" height="14px" width="83px"
-                                        loading="lazy" fetchpriority="auto"></div>
+                                <div class="stars">
+                                    <i class="fa-solid fa-star" style="color: rgb(255, 212, 59);"></i>
+                                    <i class="fa-solid fa-star" style="color: rgb(255, 212, 59);"></i>
+                                    <i class="fa-solid fa-star" style="color: rgb(255, 212, 59);"></i>
+                                    <i class="fa-solid fa-star" style="color: rgb(255, 212, 59);"></i>
+                                    <i class="fa-regular fa-star" style="color: rgb(255, 212, 59);"></i>
+                                </div>
                             </div>
                         </div>
 
@@ -287,18 +287,18 @@
 
                             <div class="top-right">
                                 <div class="love">
-                                    <div class="wishlist">
-                                        <svg width="32" height="32" viewBox="0 0 32 32" fill="none"
-                                            xmlns="http://www.w3.org/2000/svg">
-                                            <path
-                                                d="M16 0C7.16375 0 0 7.16375 0 16C0 24.8363 7.16375 32 16 32C24.8363 32 32 24.8363 32 16C32 7.16375 24.8369 0 16 0ZM16 25.4263L14.4825 24.3487C12.9606 23.205 12.0175 22.4881 10.8206 21.3988C9.67562 20.3556 8.39062 19.0744 7.60313 17.5387C7.60313 17.5387 7.20938 16.7006 7.03 15.9838C6.91383 15.4749 6.86591 14.9528 6.8875 14.4312C7.035 11.4937 9.59688 8.81375 12.2475 8.66063C12.8669 8.62997 13.4848 8.74626 14.0506 9C14.3874 9.15193 14.704 9.34507 14.9931 9.575L16 10.4375L17.0069 9.58062C17.7956 8.95562 18.7294 8.61562 19.7525 8.66375C22.4031 8.81687 24.965 11.4956 25.1125 14.4344C25.1341 14.9559 25.0862 15.478 24.97 15.9869C24.97 15.9869 24.74 16.9244 24.3969 17.5419C23.6094 19.0775 22.3244 20.3587 21.1794 21.4019C20.7725 21.7712 20.4012 22.0944 20.0269 22.4056C19.295 23.0138 18.5456 23.5781 17.5175 24.3512L16 25.4263Z"
-                                                fill="#4D8C57" />
-                                        </svg>
-                                    </div>
+                                    <button class="wishlist">
+                                        <i class="fa-solid fa-heart" style="color: rgb(255, 255, 255);"></i>
+                                    </button>
                                 </div>
                                 <div class="badge">123 F CFA</div>
-                                <div class="stars"><img src="{{ asset('assets/images/star.webp') }}" alt="star" height="14px" width="83px"
-                                        loading="lazy" fetchpriority="auto"></div>
+                                <div class="stars">
+                                    <i class="fa-solid fa-star" style="color: rgb(255, 212, 59);"></i>
+                                    <i class="fa-solid fa-star" style="color: rgb(255, 212, 59);"></i>
+                                    <i class="fa-solid fa-star" style="color: rgb(255, 212, 59);"></i>
+                                    <i class="fa-solid fa-star" style="color: rgb(255, 212, 59);"></i>
+                                    <i class="fa-regular fa-star" style="color: rgb(255, 212, 59);"></i>
+                                </div>
                             </div>
                         </div>
 
@@ -359,18 +359,18 @@
 
                             <div class="top-right">
                                 <div class="love">
-                                    <div class="wishlist">
-                                        <svg width="32" height="32" viewBox="0 0 32 32" fill="none"
-                                            xmlns="http://www.w3.org/2000/svg">
-                                            <path
-                                                d="M16 0C7.16375 0 0 7.16375 0 16C0 24.8363 7.16375 32 16 32C24.8363 32 32 24.8363 32 16C32 7.16375 24.8369 0 16 0ZM16 25.4263L14.4825 24.3487C12.9606 23.205 12.0175 22.4881 10.8206 21.3988C9.67562 20.3556 8.39062 19.0744 7.60313 17.5387C7.60313 17.5387 7.20938 16.7006 7.03 15.9838C6.91383 15.4749 6.86591 14.9528 6.8875 14.4312C7.035 11.4937 9.59688 8.81375 12.2475 8.66063C12.8669 8.62997 13.4848 8.74626 14.0506 9C14.3874 9.15193 14.704 9.34507 14.9931 9.575L16 10.4375L17.0069 9.58062C17.7956 8.95562 18.7294 8.61562 19.7525 8.66375C22.4031 8.81687 24.965 11.4956 25.1125 14.4344C25.1341 14.9559 25.0862 15.478 24.97 15.9869C24.97 15.9869 24.74 16.9244 24.3969 17.5419C23.6094 19.0775 22.3244 20.3587 21.1794 21.4019C20.7725 21.7712 20.4012 22.0944 20.0269 22.4056C19.295 23.0138 18.5456 23.5781 17.5175 24.3512L16 25.4263Z"
-                                                fill="#4D8C57" />
-                                        </svg>
-                                    </div>
+                                    <button class="wishlist">
+                                        <i class="fa-solid fa-heart" style="color: rgb(255, 255, 255);"></i>
+                                    </button>
                                 </div>
                                 <div class="badge">123 F CFA</div>
-                                <div class="stars"><img src="{{ asset('assets/images/star.webp') }}" alt="star" height="14px" width="83px"
-                                        loading="lazy" fetchpriority="auto"></div>
+                                <div class="stars">
+                                    <i class="fa-solid fa-star" style="color: rgb(255, 212, 59);"></i>
+                                    <i class="fa-solid fa-star" style="color: rgb(255, 212, 59);"></i>
+                                    <i class="fa-solid fa-star" style="color: rgb(255, 212, 59);"></i>
+                                    <i class="fa-solid fa-star" style="color: rgb(255, 212, 59);"></i>
+                                    <i class="fa-regular fa-star" style="color: rgb(255, 212, 59);"></i>
+                                </div>
                             </div>
                         </div>
 
@@ -431,18 +431,18 @@
 
                             <div class="top-right">
                                 <div class="love">
-                                    <div class="wishlist">
-                                        <svg width="32" height="32" viewBox="0 0 32 32" fill="none"
-                                            xmlns="http://www.w3.org/2000/svg">
-                                            <path
-                                                d="M16 0C7.16375 0 0 7.16375 0 16C0 24.8363 7.16375 32 16 32C24.8363 32 32 24.8363 32 16C32 7.16375 24.8369 0 16 0ZM16 25.4263L14.4825 24.3487C12.9606 23.205 12.0175 22.4881 10.8206 21.3988C9.67562 20.3556 8.39062 19.0744 7.60313 17.5387C7.60313 17.5387 7.20938 16.7006 7.03 15.9838C6.91383 15.4749 6.86591 14.9528 6.8875 14.4312C7.035 11.4937 9.59688 8.81375 12.2475 8.66063C12.8669 8.62997 13.4848 8.74626 14.0506 9C14.3874 9.15193 14.704 9.34507 14.9931 9.575L16 10.4375L17.0069 9.58062C17.7956 8.95562 18.7294 8.61562 19.7525 8.66375C22.4031 8.81687 24.965 11.4956 25.1125 14.4344C25.1341 14.9559 25.0862 15.478 24.97 15.9869C24.97 15.9869 24.74 16.9244 24.3969 17.5419C23.6094 19.0775 22.3244 20.3587 21.1794 21.4019C20.7725 21.7712 20.4012 22.0944 20.0269 22.4056C19.295 23.0138 18.5456 23.5781 17.5175 24.3512L16 25.4263Z"
-                                                fill="#4D8C57" />
-                                        </svg>
-                                    </div>
+                                    <button class="wishlist">
+                                        <i class="fa-solid fa-heart" style="color: rgb(255, 255, 255);"></i>
+                                    </button>
                                 </div>
                                 <div class="badge">123 F CFA</div>
-                                <div class="stars"><img src="{{ asset('assets/images/star.webp') }}" alt="star" height="14px" width="83px"
-                                        loading="lazy" fetchpriority="auto"></div>
+                                <div class="stars">
+                                    <i class="fa-solid fa-star" style="color: rgb(255, 212, 59);"></i>
+                                    <i class="fa-solid fa-star" style="color: rgb(255, 212, 59);"></i>
+                                    <i class="fa-solid fa-star" style="color: rgb(255, 212, 59);"></i>
+                                    <i class="fa-solid fa-star" style="color: rgb(255, 212, 59);"></i>
+                                    <i class="fa-regular fa-star" style="color: rgb(255, 212, 59);"></i>
+                                </div>
                             </div>
                         </div>
 
@@ -503,18 +503,18 @@
 
                             <div class="top-right">
                                 <div class="love">
-                                    <div class="wishlist">
-                                        <svg width="32" height="32" viewBox="0 0 32 32" fill="none"
-                                            xmlns="http://www.w3.org/2000/svg">
-                                            <path
-                                                d="M16 0C7.16375 0 0 7.16375 0 16C0 24.8363 7.16375 32 16 32C24.8363 32 32 24.8363 32 16C32 7.16375 24.8369 0 16 0ZM16 25.4263L14.4825 24.3487C12.9606 23.205 12.0175 22.4881 10.8206 21.3988C9.67562 20.3556 8.39062 19.0744 7.60313 17.5387C7.60313 17.5387 7.20938 16.7006 7.03 15.9838C6.91383 15.4749 6.86591 14.9528 6.8875 14.4312C7.035 11.4937 9.59688 8.81375 12.2475 8.66063C12.8669 8.62997 13.4848 8.74626 14.0506 9C14.3874 9.15193 14.704 9.34507 14.9931 9.575L16 10.4375L17.0069 9.58062C17.7956 8.95562 18.7294 8.61562 19.7525 8.66375C22.4031 8.81687 24.965 11.4956 25.1125 14.4344C25.1341 14.9559 25.0862 15.478 24.97 15.9869C24.97 15.9869 24.74 16.9244 24.3969 17.5419C23.6094 19.0775 22.3244 20.3587 21.1794 21.4019C20.7725 21.7712 20.4012 22.0944 20.0269 22.4056C19.295 23.0138 18.5456 23.5781 17.5175 24.3512L16 25.4263Z"
-                                                fill="#4D8C57" />
-                                        </svg>
-                                    </div>
+                                    <button class="wishlist">
+                                        <i class="fa-solid fa-heart" style="color: rgb(255, 255, 255);"></i>
+                                    </button>
                                 </div>
                                 <div class="badge">123 F CFA</div>
-                                <div class="stars"><img src="{{ asset('assets/images/star.webp') }}" alt="star" height="14px" width="83px"
-                                        loading="lazy" fetchpriority="auto"></div>
+                                <div class="stars">
+                                    <i class="fa-solid fa-star" style="color: rgb(255, 212, 59);"></i>
+                                    <i class="fa-solid fa-star" style="color: rgb(255, 212, 59);"></i>
+                                    <i class="fa-solid fa-star" style="color: rgb(255, 212, 59);"></i>
+                                    <i class="fa-solid fa-star" style="color: rgb(255, 212, 59);"></i>
+                                    <i class="fa-regular fa-star" style="color: rgb(255, 212, 59);"></i>
+                                </div>
                             </div>
                         </div>
 
@@ -753,3 +753,4 @@
 
 @section('customJS')
 @endsection
+
