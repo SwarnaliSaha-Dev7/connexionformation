@@ -854,7 +854,7 @@ input {
 .circle-icon {
   position: absolute;
   right: 16px;
-  top: 42%;
+  top: 48%;
   transform: translateY(-50%);
   pointer-events: none;
   width: 13px;
@@ -864,6 +864,10 @@ input {
   display: flex;
   align-items: center;
   justify-content: center;
+}
+
+.circle-icon1 {
+  top: 44%;
 }
 
 /* form part end */

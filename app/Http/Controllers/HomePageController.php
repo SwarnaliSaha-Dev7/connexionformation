@@ -8,8 +8,7 @@ class HomePageController extends Controller
 {
     public function homepage(){
 
-        // $page_title = 'Home';
-        $title = 'Home';
+        $title = 'Accueil';
 
         // $data['PageHomeData'] = PageHome::first();
 

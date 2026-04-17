@@ -1,4 +1,4 @@
-<header id="header" class="main_header">
+    <header id="header" class="main_header">
         <div class="container">
             <div class="row">
                 <div class="nav_bar_top">
@@ -74,8 +74,8 @@
                                         </div>
 
                                         <ul class="dropdown-menu">
-                                            <li><a href="catalog-training.html">Training Catalog</a></li>
-                                            <li><a href="catalog-internship.html">internship catalog</a></li>
+                                            <li><a href="{{ route('training-catalog-listing') }}">Training Catalog</a></li>
+                                            <li><a href="{{ route('internship-catalog-listing') }}">internship catalog</a></li>
                                         </ul>
                                     </div>
                                 </li>
@@ -98,7 +98,7 @@
                                         </div>
                                         <ul class="login-menu">
                                             <li><a href="#">Profile</a></li>
-                                            <li><a href="#">Log In</a></li>
+                                            <li><a href="{{ route('login') }}">Log In</a></li>
                                         </ul>
                                     </div>
                                 </li>

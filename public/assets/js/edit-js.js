@@ -155,7 +155,7 @@ document.addEventListener("DOMContentLoaded", () => {
     btn.addEventListener("click", () => {
       const isPassword = password[i].type === "password";
       password[i].type = isPassword ? "text" : "password";
-      icon[i].src = isPassword ? "images/eye-off.webp" : "images/eye.svg";
+      icon[i].src = isPassword ? "/assets/images/eye-off.webp" : "/assets/images/eye.svg";
     });
   });
 
