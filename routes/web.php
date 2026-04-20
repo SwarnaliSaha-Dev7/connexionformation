@@ -17,4 +17,4 @@ Route::get('/login', [AuthController::class, 'showLogin'])->name('login');
 Route::get('/', [HomePageController::class, 'homepage'])->name('homePage');
 Route::get('/training-catalog', [TrainingCatalogController::class, 'listing'])->name('training-catalog-listing');
 Route::get('/internship-catalog', [InternshipCatalogController::class, 'listing'])->name('internship-catalog-listing');
-Route::get('/internship-catalog', [ServiceController::class, 'listing'])->name('internship-catalog-listing');
+Route::get('/services', [ServiceController::class, 'listing'])->name('services');

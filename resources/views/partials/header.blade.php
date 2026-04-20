@@ -79,7 +79,7 @@
                                         </ul>
                                     </div>
                                 </li>
-                                <li><a href="services.html">Services</span></a></li>
+                                <li><a href="{{ route('services') }}">Services</span></a></li>
                                 <li><a href="evalution-de-la-formation.html">Évaluation de la formation</a></li>
                                 <li><a href="actualitésRH.html">Actualités RH</a></li>
                                 <li><a href="contactez-nous.html">Contactez-nous</a></li>
